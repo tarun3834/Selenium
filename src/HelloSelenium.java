@@ -3,6 +3,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.sql.SQLOutput;
+
 
 public class HelloSelenium {
     @Test
@@ -16,6 +18,7 @@ public class HelloSelenium {
         driver.findElement(By.id("login-button")).click();
         System.out.println("Title: " + driver.getTitle());
         System.out.println("URL" + driver.getCurrentUrl());
+        System.out.println("Hello world");
         driver.close();
     }
 }
