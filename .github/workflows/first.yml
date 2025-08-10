@@ -1,35 +1,30 @@
-name: Selenium Test Workflow
+name: Run Selenium Tests
 
 on:
   push:
+    branches: [ master ]
   pull_request:
+    branches: [ master ]
 
 jobs:
-  run-selenium-tests:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout your repository code
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      # 2. Set up Java (you can change the version if needed)
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
+    - name: Set up Java
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '17'
 
-      # 3. Cache Maven dependencies (optional, speeds up builds)
-      - name: Cache Maven packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.m2
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
+    - name: Install Google Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
 
-      # 4. Run Maven to execute tests
-      - name: Run Selenium tests
-        run: mvn clean test
+    - name: Run tests with Maven
+      run: mvn clean test
 
