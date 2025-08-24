@@ -1,26 +1,15 @@
-name: Run Selenium Tests on My Local Machine
+name: Selenium Test
 
-on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-  workflow_dispatch:  # Manual trigger option
+on: [push, pull_request]
 
 jobs:
   selenium-test:
     runs-on: self-hosted
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Display project structure
+      - uses: actions/checkout@v4
+      - name: Show directory structure
         run: |
           echo "Current directory structure:"
-          Get-ChildItem -Recurse -Include "*.java", "*.xml", "*.yml" | Select-Object -First 20 | ForEach-Object { $_.FullName }
-        shell: powershell
-
-      - name: Run Selenium Tests
-        run: mvn clean test -Dtest=HelloSelenium
-        shell: powershell
+          find . -type f -name "*.java" -o -name "*.yml" -o -name "pom.xml" | head -20
+      - name: Run Selenium Tests (Visible Mode)
+        run: mvn clean test -Dtest=HelloSelenium -Dheadless=false
