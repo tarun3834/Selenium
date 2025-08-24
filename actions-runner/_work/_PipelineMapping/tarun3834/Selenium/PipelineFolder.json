@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "tarun3834/Selenium",
+  "pipelineDirectory": "Selenium",
+  "workspaceDirectory": "Selenium\\Selenium",
+  "repositories": {
+    "tarun3834/Selenium": {
+      "repositoryPath": "Selenium\\Selenium",
+      "lastRunOn": "08/24/2025 20:57:01 +05:30"
+    }
+  },
+  "lastRunOn": "08/24/2025 20:57:01 +05:30"
+}

@@ -18,7 +18,9 @@ jobs:
       - name: Display project structure
         run: |
           echo "Current directory structure:"
-          find . -type f -name "*.java" -o -name "*.xml" -o -name "*.yml" | head -20
+          Get-ChildItem -Recurse -Include "*.java", "*.xml", "*.yml" | Select-Object -First 20 | ForEach-Object { $_.FullName }
+        shell: powershell
 
       - name: Run Selenium Tests
         run: mvn clean test -Dtest=HelloSelenium
+        shell: powershell

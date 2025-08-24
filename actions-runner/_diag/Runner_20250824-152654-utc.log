@@ -1,0 +1,166 @@
+[2025-08-24 15:26:54Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'Credentials': 'C:\Selenium\Demo\actions-runner\.credentials'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'Runner': 'C:\Selenium\Demo\actions-runner\.runner'
+[2025-08-24 15:26:54Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-08-24 15:26:54Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2025-08-24 15:26:54Z INFO Listener] Version: 2.328.0
+[2025-08-24 15:26:54Z INFO Listener] Commit: 6f9a9110adce65f44ca6f7c0ae142b9cc6af937b
+[2025-08-24 15:26:54Z INFO Listener] Culture: en-US
+[2025-08-24 15:26:54Z INFO Listener] UI Culture: en-US
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO Listener] Validating directory permissions for: 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO CommandLineParser] Parse
+[2025-08-24 15:26:54Z INFO CommandLineParser] Parsing 1 args
+[2025-08-24 15:26:54Z INFO CommandLineParser] parsing argument
+[2025-08-24 15:26:54Z INFO CommandLineParser] HasArgs: False
+[2025-08-24 15:26:54Z INFO CommandLineParser] Adding Command: run
+[2025-08-24 15:26:54Z INFO Listener] Arguments parsed
+[2025-08-24 15:26:54Z INFO Runner] ExecuteCommand
+[2025-08-24 15:26:54Z INFO ConfigurationStore] currentAssemblyLocation: C:\Selenium\Demo\actions-runner\bin\Runner.Listener.dll
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] binPath: C:\Selenium\Demo\actions-runner\bin
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] RootFolder: C:\Selenium\Demo\actions-runner
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'Runner': 'C:\Selenium\Demo\actions-runner\.runner'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] ConfigFilePath: C:\Selenium\Demo\actions-runner\.runner
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Selenium\Demo\actions-runner\.runner_migrated'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Selenium\Demo\actions-runner\.runner_migrated
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'Credentials': 'C:\Selenium\Demo\actions-runner\.credentials'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] CredFilePath: C:\Selenium\Demo\actions-runner\.credentials
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Selenium\Demo\actions-runner\.credentials_migrated'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] MigratedCredFilePath: C:\Selenium\Demo\actions-runner\.credentials_migrated
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'Service': 'C:\Selenium\Demo\actions-runner\.service'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Selenium\Demo\actions-runner\.service
+[2025-08-24 15:26:54Z INFO CommandSettings] Flag 'help': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Flag 'version': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Flag 'check': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Command 'configure': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Command 'remove': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-08-24 15:26:54Z INFO ConfigurationManager] LoadSettings
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsConfigured()
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsConfigured: True
+[2025-08-24 15:26:54Z INFO ConfigurationManager] Is configured: True
+[2025-08-24 15:26:54Z INFO ConfigurationStore] Read setting file: 388 chars
+[2025-08-24 15:26:54Z INFO ConfigurationManager] Settings Loaded
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-08-24 15:26:54Z INFO CommandSettings] Command 'run': 'True'
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsConfigured()
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsConfigured: True
+[2025-08-24 15:26:54Z INFO ConfigurationManager] Is configured: True
+[2025-08-24 15:26:54Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-08-24 15:26:54Z INFO Runner] Set runner startup type - Manual
+[2025-08-24 15:26:54Z INFO CommandSettings] Flag 'once': 'False'
+[2025-08-24 15:26:54Z INFO CommandSettings] Flag 'once': 'False'
+[2025-08-24 15:26:54Z INFO Runner] RunAsync
+[2025-08-24 15:26:54Z INFO ConfigurationManager] LoadMigratedSettings
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsMigratedConfigured()
+[2025-08-24 15:26:54Z INFO ConfigurationStore] IsMigratedConfigured: False
+[2025-08-24 15:26:54Z INFO Runner] Failed to load migrated settings: No migrated configuration found.
+[2025-08-24 15:26:54Z INFO Runner] Falling back to original .runner settings
+[2025-08-24 15:26:54Z INFO Runner] Using BrokerMessageListener
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] Using provided settings
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] {
+  "AgentId": 21,
+  "AgentName": "TARUN",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus12.actions.githubusercontent.com/gnYMN5JC3KnHinSUQJGJhVQsKQcJPOPuzPC8ZW5W3sRIElWtGF/",
+  "GitHubUrl": "https://github.com/tarun3834/Selenium",
+  "WorkFolder": "_work",
+  "UseV2Flow": true,
+  "ServerUrlV2": "https://broker.actions.githubusercontent.com/"
+}
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] Loading Credentials
+[2025-08-24 15:26:54Z INFO ConfigurationStore] HasCredentials()
+[2025-08-24 15:26:54Z INFO ConfigurationStore] stored True
+[2025-08-24 15:26:54Z INFO CredentialManager] GetCredentialProvider
+[2025-08-24 15:26:54Z INFO CredentialManager] Creating type OAuth
+[2025-08-24 15:26:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:26:54Z INFO HostContext] Well known directory 'Root': 'C:\Selenium\Demo\actions-runner'
+[2025-08-24 15:26:54Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Selenium\Demo\actions-runner\.credentials_rsaparams'
+[2025-08-24 15:26:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] Attempt to create session.
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] Connecting to the Broker Server...
+[2025-08-24 15:26:54Z INFO ConfigurationStore] HasCredentials()
+[2025-08-24 15:26:54Z INFO ConfigurationStore] stored True
+[2025-08-24 15:26:54Z INFO CredentialManager] GetCredentialProvider
+[2025-08-24 15:26:54Z INFO CredentialManager] Creating type OAuth
+[2025-08-24 15:26:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-08-24 15:26:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] VssConnection created
+[2025-08-24 15:26:54Z INFO BrokerMessageListener] Connecting to the Runner server...
+[2025-08-24 15:26:54Z INFO RunnerServer] EstablishVssConnection
+[2025-08-24 15:26:54Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-08-24 15:26:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-08-24 15:26:54Z INFO RunnerServer] EstablishVssConnection
+[2025-08-24 15:26:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-08-24 15:26:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-08-24 15:26:54Z INFO RunnerServer] EstablishVssConnection
+[2025-08-24 15:26:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-08-24 15:26:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-08-24 15:26:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-08-24 15:26:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-08-24 15:26:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-08-24 15:26:55Z INFO BrokerMessageListener] VssConnection created
+[2025-08-24 15:26:55Z INFO Terminal] WRITE LINE: 
+[2025-08-24 15:26:55Z INFO Terminal] WRITE LINE: 
+[2025-08-24 15:26:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:56Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-08-24 15:26:57Z INFO BrokerMessageListener] Session created.
+[2025-08-24 15:26:57Z INFO Terminal] WRITE LINE: Current runner version: '2.328.0'
+[2025-08-24 15:26:57Z INFO Terminal] WRITE LINE: 2025-08-24 15:26:57Z: Listening for Jobs
+[2025-08-24 15:26:57Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-08-24 15:26:57Z INFO ConfigurationStore] HasCredentials()
+[2025-08-24 15:26:57Z INFO ConfigurationStore] stored True
+[2025-08-24 15:26:57Z INFO CredentialManager] GetCredentialProvider
+[2025-08-24 15:26:57Z INFO CredentialManager] Creating type OAuth
+[2025-08-24 15:26:57Z INFO CredentialManager] Creating credential type: OAuth
+[2025-08-24 15:26:57Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:57Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:57Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Selenium\Demo\actions-runner\.credentials_rsaparams
+[2025-08-24 15:26:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-08-24 15:27:00Z INFO JobDispatcher] Job request 0 for plan a45084c2-aeef-4c93-86d7-cbc22f546251 job 297b96c8-7bec-50b1-a94e-1846497fc99f received.
+[2025-08-24 15:27:00Z INFO JobDispatcher] Pull OrchestrationId a45084c2-aeef-4c93-86d7-cbc22f546251.selenium-test.__default from JWT claims
+[2025-08-24 15:27:00Z INFO BrokerMessageListener] Received job status event. JobState: Busy
+[2025-08-24 15:27:00Z INFO BrokerMessageListener] _getMessagesTokenSource is already disposed.
+[2025-08-24 15:27:00Z INFO Terminal] WRITE LINE: 2025-08-24 15:27:00Z: Running job: selenium-test
+[2025-08-24 15:27:00Z INFO JobDispatcher] Start renew job request 0 for job 297b96c8-7bec-50b1-a94e-1846497fc99f.
+[2025-08-24 15:27:01Z INFO JobDispatcher] Successfully renew job 297b96c8-7bec-50b1-a94e-1846497fc99f, job is valid till 8/24/2025 3:37:00 PM
+[2025-08-24 15:27:01Z INFO HostContext] Well known directory 'Bin': 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper] Starting process:
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   File name: 'C:\Selenium\Demo\actions-runner\bin\Runner.Worker.exe'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2328 2340'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Selenium\Demo\actions-runner\bin'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-08-24 15:27:01Z INFO ProcessInvokerWrapper] Process started with process id 11852, waiting for process exit.
+[2025-08-24 15:27:01Z INFO JobDispatcher] Send job request message to worker for job 297b96c8-7bec-50b1-a94e-1846497fc99f.
+[2025-08-24 15:27:01Z INFO ProcessChannel] Sending message of length 18971, with hash '6e7683c5a2740d60cac41c9095da0756ce216599fd08a3d34c828e53d002068e'
+[2025-08-24 15:27:01Z INFO JobNotification] Entering JobStarted Notification
+[2025-08-24 15:27:01Z INFO JobNotification] Entering StartMonitor
