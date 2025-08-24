@@ -1,0 +1,24 @@
+name: Run Selenium Tests on My Local Machine
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Manual trigger option
+
+jobs:
+  selenium-test:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display project structure
+        run: |
+          echo "Current directory structure:"
+          find . -type f -name "*.java" -o -name "*.xml" -o -name "*.yml" | head -20
+
+      - name: Run Selenium Tests
+        run: mvn clean test -Dtest=HelloSelenium
