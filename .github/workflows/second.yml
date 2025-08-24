@@ -7,9 +7,13 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
-      - name: Show directory structure
+
+      - name: Show directory structure (Windows)
         run: |
           echo "Current directory structure:"
-          find . -type f -name "*.java" -o -name "*.yml" -o -name "pom.xml" | head -20
+          Get-ChildItem -Recurse -Include "*.java", "*.yml", "pom.xml" | Select-Object -First 20 | ForEach-Object { $_.FullName }
+        shell: powershell
+
       - name: Run Selenium Tests (Visible Mode)
         run: mvn clean test -Dtest=HelloSelenium -Dheadless=false
+        shell: cmd
