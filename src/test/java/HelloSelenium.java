@@ -34,7 +34,7 @@ public class HelloSelenium {
 
             // Basic assertion to verify login worked
             assert driver.getCurrentUrl().contains("inventory");
-            System.out.println("Login test passed!");
+            System.out.println("Login test passd!");
 
         } finally {
             driver.quit();
