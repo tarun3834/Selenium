@@ -4,16 +4,9 @@ on: [push, pull_request]
 
 jobs:
   selenium-test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: checkout
+        uses: actions/checkout@v4
 
-      - name: Show directory structure (Windows)
-        run: |
-          echo "Current directory structure:"
-          Get-ChildItem -Recurse -Include "*.java", "*.yml", "pom.xml" | Select-Object -First 20 | ForEach-Object { $_.FullName }
-        shell: powershell
-
-      - name: Run Selenium Tests (Visible Mode)
-        run: mvn clean test -Dtest=HelloSelenium -Dheadless=false
-        shell: cmd
+ 
