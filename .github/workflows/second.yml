@@ -1,6 +1,10 @@
 name: Selenium Test
 
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   selenium-test:
